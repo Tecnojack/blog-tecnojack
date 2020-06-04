@@ -12,6 +12,8 @@ import { NavbarComponent } from './navbar/navbar.component';
 import { HomeComponent } from './home/home.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations'
 import { FormsModule, ReactiveFormsModule } from '@angular/forms';
+import { AppsComponent } from './apps/apps.component';
+import { PostComponent } from './post/post.component';
 
 
 
@@ -25,6 +27,8 @@ import { FormsModule, ReactiveFormsModule } from '@angular/forms';
     PerfilComponent,
     NavbarComponent,
     HomeComponent,
+    AppsComponent,
+    PostComponent,
 
 
   ],

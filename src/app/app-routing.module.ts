@@ -4,6 +4,8 @@ import { HomeComponent } from 'src/app/home/home.component';
 import { LoginComponent } from 'src/app/usuario/login/login.component';
 import { RegistroComponent } from 'src/app/usuario/registro/registro.component';
 import { PerfilComponent } from 'src/app/usuario/perfil/perfil.component';
+import { AppsComponent } from './apps/apps.component';
+import { PostComponent } from './post/post.component';
 
 
 const routes: Routes = [
@@ -12,6 +14,8 @@ const routes: Routes = [
   { path: 'usuario/login', component: LoginComponent },
   { path: 'usuario/registro', component: RegistroComponent },
   { path: 'usuario/perfil', component: PerfilComponent}, 
+  { path: 'apps', component: AppsComponent},
+  {path: 'post', component: PostComponent}
 
 ];
 
