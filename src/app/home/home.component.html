@@ -1,39 +1,14 @@
 <main role="main">
 
   <section class="jumbotron text-center">
-    <!-- Button trigger modal -->
-    <button type="button" class="btn btn-success" data-toggle="modal" data-target="#Registrarse">
-      Launch demo modal
-    </button>
 
-    <!-- Modal -->
-    <div class="modal fade" id="Registrarse" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
-      aria-hidden="true">
-      <div class="modal-dialog" role="document">
-        <div class="modal-content">
-          <div class="modal-header">
-            <h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
-            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-              <span aria-hidden="true">&times;</span>
-            </button>
-          </div>
-          <div class="modal-body">
-            ...
-          </div>
-          <div class="modal-footer">
-            <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-            <button type="button" class="btn btn-primary">Save changes</button>
-          </div>
-        </div>
-      </div>
-    </div>
     <div class="container">
       <h1>TECNOJACK</h1>
       <p class="lead text-muted">Bienvenido a nuestro blog TECNOJACK.</p>
       <p>
-        <a href="#" class="btn btn-primary my-2">Ya estoy suscrito al canal TECNOJACK</a>
+        <a href="#" class="btn btn-primary my-2" [routerLink]="['/usuario/login']">Ya estoy suscrito al canal TECNOJACK</a>
         &nbsp;
-        <a href="#" class="btn btn-secondary my-2">No estoy suscrito</a>
+        <a href="#" class="btn btn-secondary my-2" [routerLink]="['/usuario/registro']">No estoy suscrito</a>
       </p>
 
     </div>
@@ -48,27 +23,10 @@
             <iframe width="100%" height="225" src="https://www.youtube.com/embed/p7u6rpUA9PE" frameborder="0"
               allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
             <div class="card-body">
-                
-              <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional
-                content. This content is a little bit longer.</p>
-              <div class="d-flex justify-content-between align-items-center">
-                <p>
-                  <a class="btn btn-primary" data-toggle="collapse" href="#collapseExample" role="button"
-                    aria-expanded="false" aria-controls="collapseExample">
-                    Link with href
-                  </a>
-                  <button class="btn btn-primary" type="button" data-toggle="collapse" data-target="#collapseExample"
-                    aria-expanded="false" aria-controls="collapseExample">
-                    Button with data-target
-                  </button>
-                </p>
 
-                <div class="collapse" id="collapseExample">
-                  <div class="card card-body">
-                    Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid.
-                    Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident.
-                  </div>
-                </div>
+              <p class="card-text">9 aplicaciones para que disfrutes del contenido de netflix totalmente gratis</p>
+              <div class="d-flex justify-content-between align-items-center">
+
 
                 <div class="btn-group">
                   <button type="button" class="btn btn-sm btn-outline-secondary">me gusta</button>
@@ -81,15 +39,14 @@
         </div>
         <div class="col-md-4">
           <div class="card mb-4 shadow-sm">
-            <iframe width="100%" height="225" src="https://www.youtube.com/embed/p7u6rpUA9PE" frameborder="0"
+            <iframe width="100%" height="225" src="https://www.youtube.com/embed/Btbpd9KNeEc" frameborder="0"
               allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
             <div class="card-body">
-              <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional
-                content. This content is a little bit longer.</p>
+              <p class="card-text">Solucion al error de instalacion de GbWhatsApp</p>
               <div class="d-flex justify-content-between align-items-center">
                 <div class="btn-group">
-                  <button type="button" class="btn btn-sm btn-outline-secondary">View</button>
-                  <button type="button" class="btn btn-sm btn-outline-secondary">Edit</button>
+                  <button type="button" class="btn btn-sm btn-outline-secondary">me gusta</button>
+                  <button type="button" class="btn btn-sm btn-outline-secondary">Comentar</button>
                 </div>
                 <small class="text-muted">9 mins</small>
               </div>
@@ -98,15 +55,14 @@
         </div>
         <div class="col-md-4">
           <div class="card mb-4 shadow-sm">
-            <iframe width="100%" height="225" src="https://www.youtube.com/embed/p7u6rpUA9PE" frameborder="0"
+            <iframe width="100%" height="225" src="https://www.youtube.com/embed/1HOxNmBk9qU" frameborder="0"
               allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
             <div class="card-body">
-              <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional
-                content. This content is a little bit longer.</p>
+              <p class="card-text">Especial de 400 suscriptores</p>
               <div class="d-flex justify-content-between align-items-center">
                 <div class="btn-group">
-                  <button type="button" class="btn btn-sm btn-outline-secondary">View</button>
-                  <button type="button" class="btn btn-sm btn-outline-secondary">Edit</button>
+                  <button type="button" class="btn btn-sm btn-outline-secondary">me gusta</button>
+                  <button type="button" class="btn btn-sm btn-outline-secondary">Comentar</button>
                 </div>
                 <small class="text-muted">9 mins</small>
               </div>
@@ -116,15 +72,14 @@
 
         <div class="col-md-4">
           <div class="card mb-4 shadow-sm">
-            <iframe width="100%" height="225" src="https://www.youtube.com/embed/p7u6rpUA9PE" frameborder="0"
+            <iframe width="100%" height="225" src="https://www.youtube.com/embed/ZVhqUge_L2M" frameborder="0"
               allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
             <div class="card-body">
-              <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional
-                content. This content is a little bit longer.</p>
+              <p class="card-text">ADGUARD: elimina toda la publicidad de tu dispositivo android </p>
               <div class="d-flex justify-content-between align-items-center">
                 <div class="btn-group">
-                  <button type="button" class="btn btn-sm btn-outline-secondary">View</button>
-                  <button type="button" class="btn btn-sm btn-outline-secondary">Edit</button>
+                  <button type="button" class="btn btn-sm btn-outline-secondary">me gusta</button>
+                  <button type="button" class="btn btn-sm btn-outline-secondary">Comentar</button>
                 </div>
                 <small class="text-muted">9 mins</small>
               </div>
@@ -133,15 +88,14 @@
         </div>
         <div class="col-md-4">
           <div class="card mb-4 shadow-sm">
-            <iframe width="100%" height="225" src="https://www.youtube.com/embed/p7u6rpUA9PE" frameborder="0"
+            <iframe width="100%" height="225" src="https://www.youtube.com/embed/xS3V8DJUVDI" frameborder="0"
               allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
             <div class="card-body">
-              <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional
-                content. This content is a little bit longer.</p>
+              <p class="card-text">Youtubers que roban contenido para ser grandes.</p>
               <div class="d-flex justify-content-between align-items-center">
                 <div class="btn-group">
-                  <button type="button" class="btn btn-sm btn-outline-secondary">View</button>
-                  <button type="button" class="btn btn-sm btn-outline-secondary">Edit</button>
+                  <button type="button" class="btn btn-sm btn-outline-secondary">me gusta</button>
+                  <button type="button" class="btn btn-sm btn-outline-secondary">Comentar</button>
                 </div>
                 <small class="text-muted">9 mins</small>
               </div>
@@ -150,15 +104,14 @@
         </div>
         <div class="col-md-4">
           <div class="card mb-4 shadow-sm">
-            <iframe width="100%" height="225" src="https://www.youtube.com/embed/p7u6rpUA9PE" frameborder="0"
+            <iframe width="100%" height="225" src="https://www.youtube.com/embed/a9lQzznDVME" frameborder="0"
               allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
             <div class="card-body">
-              <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional
-                content. This content is a little bit longer.</p>
+              <p class="card-text">Noticias sobre el COVID-19 en colombia.</p>
               <div class="d-flex justify-content-between align-items-center">
                 <div class="btn-group">
-                  <button type="button" class="btn btn-sm btn-outline-secondary">View</button>
-                  <button type="button" class="btn btn-sm btn-outline-secondary">Edit</button>
+                  <button type="button" class="btn btn-sm btn-outline-secondary">me gusta</button>
+                  <button type="button" class="btn btn-sm btn-outline-secondary">Comentar</button>
                 </div>
                 <small class="text-muted">9 mins</small>
               </div>
